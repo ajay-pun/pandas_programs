@@ -1,0 +1,28 @@
+import pandas as pd
+
+
+#----------------------------------------------------------------------------------
+#creating pandas dataframe
+df=pd.DataFrame(data_list,columns=column_list)           #data_list=[ list1,  list2,  ...listN]
+
+
+#-----------------------------------------------------------------------------------
+#getting the no of row
+n=len(df.index)
+
+
+#------------------------------------------------------------------------------------
+#adding a new row
+df.iloc[len(df.index)]=list       
+
+"""we can also use loc instead of iloc.
+iloc uses actual index of item in the list.
+loc uses index column or indexing of data."""
+
+
+#-------------------------------------------------------------------------------------
+#editing a row
+df.iloc[len(df.index)-1]=list                         #we have edited the last row
+
+"""similary we can also use loc for this task
+  we can edit any row by using index"""
