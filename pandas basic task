@@ -26,3 +26,11 @@ df.iloc[len(df.index)-1]=list                         #we have edited the last r
 
 """similary we can also use loc for this task
   we can edit any row by using index"""
+
+
+#-------------------------------------------------------------------------------------
+#getting the column
+df.column_name
+"""we can convert the column into any structures for eg,
+    dict(df.column_name)
+    list(df.column_name)"""
