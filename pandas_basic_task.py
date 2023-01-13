@@ -16,8 +16,10 @@ n=len(df.index)
 df.iloc[len(df.index)]=list       
 
 """we can also use loc instead of iloc.
-iloc uses actual index of item in the list.
-loc uses index column or indexing of data."""
+loc uses actual index of item in the list.
+iloc uses index column or indexing of data.
+
+Note: We cannot use iloc when there is no index column."""
 
 
 #-------------------------------------------------------------------------------------
