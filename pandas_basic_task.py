@@ -22,7 +22,7 @@ loc uses index column or indexing of data."""
 
 #-------------------------------------------------------------------------------------
 #editing a row
-df.iloc[len(df.index)-1]=list                         #we have edited the last row
+df.iloc[len(df.index)-1]=list                            #we have edited the last row
 
 """similary we can also use loc for this task
   we can edit any row by using index"""
@@ -31,6 +31,7 @@ df.iloc[len(df.index)-1]=list                         #we have edited the last r
 #-------------------------------------------------------------------------------------
 #getting the column
 df.column_name
+
 """we can convert the column into any structures for eg,
     dict(df.column_name)
     list(df.column_name)"""
